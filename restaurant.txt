@@ -1,0 +1,50 @@
+1. Restaurant Name: AMA Cafe
+ Restaurant locality address: House 6, New Colony, Majnu ka Tila, New Delhi
+ Average budget for two people: 450.0
+ Zomato user rating: 4.5
+
+2. Restaurant Name: BlackJack
+ Restaurant locality address: Shop 1, Plot 23, North West Avenue, Club Road, Punjabi Bagh West, Punjabi Bagh, New Delhi
+ Average budget for two people: 500.0
+ Zomato user rating: 4.4
+
+3. Restaurant Name: PUL
+ Restaurant locality address: E 02, Super Mart 2, DLF Phase 4, Gurgaon
+ Average budget for two people: 400.0
+ Zomato user rating: 4.4
+
+4. Restaurant Name: Burgerama
+ Restaurant locality address: Plot B, 96, Ground Floor, Zamrudpur, Greater Kailash 1 (GK 1), New Delhi
+ Average budget for two people: 600.0
+ Zomato user rating: 4.4
+
+5. Restaurant Name: Mad Chef- Burgers And Sandwiches
+ Restaurant locality address: Shop D6, Sushant Shopping Arcade, Sushant Lok 1, Sushant Lok, Gurgaon
+ Average budget for two people: 400.0
+ Zomato user rating: 4.4
+
+6. Restaurant Name: New Delhi Fried Chicken And Co.
+ Restaurant locality address: Shop 1, C 11, Community Centre, SDA, New Delhi
+ Average budget for two people: 500.0
+ Zomato user rating: 4.3
+
+7. Restaurant Name: Burgrill
+ Restaurant locality address: Shop 5, 2A JD Block, Pitampura, New Delhi
+ Average budget for two people: 500.0
+ Zomato user rating: 4.3
+
+8. Restaurant Name: Burgrill
+ Restaurant locality address: 2507, Hudson Lane, Kingways Camp, Delhi University-GTB Nagar, New Delhi
+ Average budget for two people: 500.0
+ Zomato user rating: 4.3
+
+9. Restaurant Name: Burgrill
+ Restaurant locality address: Shop 1, E-578, Savitri Cinema Road, Greater Kailash 2 (GK 2), New Delhi
+ Average budget for two people: 500.0
+ Zomato user rating: 4.2
+
+10. Restaurant Name: Burgrill
+ Restaurant locality address: SF 89, 1st Floor, DLF Galleria Market, DLF Phase 4, Gurgaon
+ Average budget for two people: 500.0
+ Zomato user rating: 4.2
+

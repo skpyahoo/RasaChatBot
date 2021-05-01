@@ -1,0 +1,123 @@
+actions:
+- action_city
+- action_reset
+- action_restarted
+- action_search_restaurants
+- action_send_mail
+- utter_ask_cuisine
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_ask_mail
+- utter_ask_mail_confirmation
+- utter_ask_price
+- utter_default
+- utter_email_Sent
+- utter_email_error
+- utter_goodbye
+- utter_greet
+- utter_noService
+- utter_noresults
+- utter_thanks
+entities:
+- cuisine
+- email
+- location
+- num
+- people
+- price
+intents:
+- greet
+- send_mail
+- affirm
+- restaurant_search
+- goodbye
+- negative
+- stop
+- ask_email
+- getnum
+- thankyou
+slots:
+  cuisine:
+    type: text
+  email:
+    type: text
+  location:
+    type: text
+  location_type:
+    initial_value: false
+    type: bool
+  noresults:
+    initial_value: true
+    type: bool
+  price:
+    initial_value:
+    - 300
+    - 700
+    type: list
+templates:
+  utter_ask_cuisine:
+  - buttons:
+    - payload: chinese
+      title: Chinese
+    - payload: Italian
+      title: Italian
+    - payload: South Indian
+      title: South Indian
+    - payload: North Indian
+      title: North Indian
+    - payload: mexican
+      title: Mexican
+    - payload: american
+      title: American
+    text: what kind of cuisine would you like?
+  utter_ask_howcanhelp:
+  - text: how can I help you?
+  utter_ask_location:
+  - text: In what location?
+  utter_ask_mail:
+  - text: Could you please share your email address then?
+  - text: Please help me with your email address
+  - text: Please enter your email address
+  utter_ask_mail_confirmation:
+  - text: 'Will you want us to send the top 10 rated restaurants to your inbox? '
+  - text: Would you like to have the top 10 results emailed to you?
+  - text: Would you be interested in having top 10 results emailed to you?
+  - text: I can send these top 10 rated restaurants to your mailbox, shall I send
+      it?
+  - text: Would you like to receive the details of top 10 restaurants of your city
+      on your email Id?
+  utter_ask_price:
+  - buttons:
+    - payload: Lesser than Rs. 300
+      title: Lesser than Rs. 300
+    - payload: Rs. 300 to 700
+      title: Rs. 300 to 700
+    - payload: More than Rs. 700
+      title: More than 700
+    text: Tell us about your preferred price range?
+  utter_default:
+  - text: I did not understand that. Could you please repeat again?
+  utter_email_Sent:
+  - text: Email Sent !!
+  - text: 'You will be receiving  a mail from us shortly with restaurant details '
+  utter_email_error:
+  - text: Email could not be sent, apologies for the inconvenience.
+  - text: Sorry, something went wrong, could not send the email.
+  utter_goodbye:
+  - text: goodbye :(
+  - text: Bye-bye
+  utter_greet:
+  - text: hey! How may i help you
+  - text: Hi, How can I help you!
+  - text: Hey, How is it going. How May I help you Today
+  utter_noService:
+  - text: Sorry, We do not operate in this city yet.
+  - text: Unfortunately, we do not provide the services in this area yet.
+  utter_noresults:
+  - text: That's unfortunate, sorry for the inconvenience . May I help you with any
+      other search?
+  - text: Sorry for that!! Can I help you with something else?
+  utter_thanks:
+  - text: Not a Problem! Is there anything else I can help you with?
+  - text: My Pleasure.What else can I do for you?
+  - text: Welcome! looking for anything else where I can help you with today?
